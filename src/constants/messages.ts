@@ -6,5 +6,10 @@ export const messages = {
   emptySpots: '没有符合条件的景点。',
   budgetExceeded: '预算可能超支，请调整景点或交通方式',
   storageRecovered: '本地数据已恢复',
+  rendezvousSaved: '会合计划已保存，倒计时已更新',
+  rendezvousSaveBlocked: '保存失败：锁定者将无法按时到达，旧集合时间与倒计时保持不变',
+  rendezvousInvalid: '会合计划校验未通过',
+  rendezvousEmpty: '还没有会合计划，先创建一次跨时区会合。',
+  rendezvousLockedLabel: '已锁定 · 最晚出发时刻已冻结',
+  rendezvousUnlockedLabel: '未锁定 · 随集合时间自动重算',
 };
-
