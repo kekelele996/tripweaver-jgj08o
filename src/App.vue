@@ -5,6 +5,7 @@
       <RouterLink to="/trips">我的旅行</RouterLink>
       <RouterLink to="/spots">景点探索</RouterLink>
       <RouterLink to="/share">分享预览</RouterLink>
+      <RouterLink to="/rendezvous">会合倒计时</RouterLink>
       <el-select v-model="themeStore.theme" size="small" @change="themeStore.setTheme" style="width: 120px">
         <el-option label="清爽地图" value="fresh" />
         <el-option label="傍晚地图" value="dusk" />
